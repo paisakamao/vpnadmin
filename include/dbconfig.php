@@ -4,7 +4,7 @@ session_start();
 mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 try {
   //Username, Password and Database
-  $con = new mysqli("localhost:3306", "hrgaabcm_torvpn", "Tor@vpn", "hrgaabcm_torvpn");
+  $con = new mysqli("localhost:3306", "root", "wCS9xF0Az5UsasTMJsJEnmEtRpBMhYJg", "newtor");
   $con->set_charset("utf8mb4");
 } catch(Exception $e) {
   error_log($e->getMessage());
